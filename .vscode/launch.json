@@ -5,6 +5,13 @@
     "version": "0.2.0",
     "configurations": [
         {
+            "type": "java",
+            "name": "FlipkartApplication",
+            "request": "launch",
+            "mainClass": "com.example.flipkart.FlipkartApplication",
+            "projectName": "flipkart"
+        },
+        {
             "type": "jdk",
             "request": "launch",
             "name": "Launch Java App"
