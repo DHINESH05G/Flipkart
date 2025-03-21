@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('Build') {
             steps {
-                bat './gradlew build'
+                bat 'gradle build'
             }
         }
         stage('Docker Build & Push') {
