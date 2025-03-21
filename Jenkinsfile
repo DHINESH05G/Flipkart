@@ -1,11 +1,6 @@
 pipeline {
     agent any
     stages {
-        stage('Clone Repo') {
-            steps {
-                git 'https://github.com/DHINESH05G/Flipkart.git'
-            }
-        }
         stage('Build') {
             steps {
                 bat './gradlew build'
