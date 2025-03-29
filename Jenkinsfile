@@ -2,7 +2,7 @@ pipeline {
     agent any
 
     environment {
-        DOCKER_IMAGE = 'dhinesh05g/flipkart-app'  // Replace with your actual Docker Hub repo
+        DOCKER_IMAGE = 'flipkart-app'  // Replace with your actual Docker Hub repo
         DOCKER_CREDENTIALS_ID = 'docker-hub-credentials'  // Ensure this matches Jenkins credentials
         GIT_CREDENTIALS_ID = 'github-credentials'  // Ensure you have added this to Jenkins
     }
