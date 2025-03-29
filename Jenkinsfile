@@ -8,8 +8,10 @@ pipeline {
 
     stages {
         stage('Clone Repo') {
-            steps {
-                git 'https://github.com/DHINESH05G/flipkart.git'
+             steps {
+                git branch: 'main', 
+                    credentialsId: 'github-credentials', 
+                    url: 'https://github.com/DHINESH05G/flipkart.git'
             }
         }
 
