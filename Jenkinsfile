@@ -16,7 +16,7 @@ pipeline {
 
         stage('Build') {
             steps {
-                sh 'gradle clean build'  // Ensure Gradle Wrapper is executable
+                sh 'gradle build'  // Ensure Gradle Wrapper is executable
             }
         }
 
