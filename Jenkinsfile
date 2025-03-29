@@ -16,7 +16,7 @@ pipeline {
 
         stage('Build') {
             steps {
-                sh './gradlew bootRun'
+                sh 'gradle bootRun'
             }
         }
 
